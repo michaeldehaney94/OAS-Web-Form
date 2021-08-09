@@ -1,0 +1,49 @@
+
+header{
+    background-color: #072f5f;
+    color: #ffffff;
+    height: 2.5em;
+}
+
+h1{
+    margin-left: 1em;
+
+}
+
+p{
+    margin-left: 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.first-nav {
+    background-color: #035096;
+    height: 2.5em;
+}
+
+.second-nav{
+    background-color: #DCDCDC;
+    padding: 8px;
+}
+
+.nav-item{
+    color: #ffffff;
+    margin-left: 2em;
+}
+
+.nav-item:hover {
+    color: #ffffff;
+}
+
+.nav-item2{
+    margin-left: 2em;
+}
+
+ul{
+    border-style: solid;
+    padding: 10px;
+    border-color: #C0C0C0;
+    border-width: thin;
+}

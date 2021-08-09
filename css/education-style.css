@@ -1,0 +1,31 @@
+html{
+    background-color: #ebecf0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: #ffffff;
+    width: 800px; 
+    margin: 0 auto;
+}
+
+.header-bar{
+    background-color: #DCDCDC;
+}
+
+a{
+    text-decoration: none;
+}
+
+#add-item1{
+    margin-left: 820px;
+}
+
+#add-item2{
+    margin-left: 850px;
+}
+
+#textarea{
+    margin-bottom: 30px;
+}
+
