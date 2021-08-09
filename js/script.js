@@ -1,10 +1,10 @@
-const saveBtn = document.querySelector('#saveBtn');
-const prevBtn = document.querySelector('#prevBtn');
-const nextBtn = document.querySelector('#nextBtn');
+const saveBtn = document.getElementById('saveBtn');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
 
-const selectCourse = document.querySelector('#form-select');
-const radioBtn = document.querySelector('#scheduleOption');
-const textarea = document.querySelector('#textarea');
+const selectCourse = document.getElementById('form-select');
+const radioBtn = document.getElementById('scheduleOption');
+const textarea = document.getElementById('textarea');
 const form = document.querySelector('form');
 
 saveBtn.addEventListener('submit', (e) => {

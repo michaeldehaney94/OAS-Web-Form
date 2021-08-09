@@ -1,10 +1,10 @@
-const saveBtn = document.querySelector('#saveBtn');
-const prevBtn = document.querySelector('#prevBtn');
-const nextBtn = document.querySelector('#nextBtn');
+const saveBtn = document.getElementById('saveBtn');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
 
-const textbox = document.querySelector('#textbox');
-const addBtn1 = document.querySelector('#add-item1');
-const addBtn2 = document.querySelector('#add-item2');
+const textbox = document.getElementById('textbox');
+const addBtn1 = document.getElementById('add-item1');
+const addBtn2 = document.getElementById('add-item2');
 const ul = document.querySelector('ul');
 
 
