@@ -61,7 +61,7 @@
         <h2>Areas of Study</h2>
         <form action="/education.php" method="post">
             <label for="programme">Programme/Course</label><span>(required)</span><br/>
-            <select name="courseSelection" id="form-select" aria-label="Choose..." required>
+            <select name="courseSelection" id="courseSelection" aria-label="Choose..." required>
                 <option selected disabled value="">Choose...</option>
                 <option value="BTM">Technology Management (Bachelor)</option>
                 <option value="ICT">Information & Communication Technology (Bachelor)</option>
@@ -79,12 +79,12 @@
             <h2>Programme Schedule</h2>
         
             <!-- Day Class -->
-            <input type="radio" name="scheduleOption" id="scheduleOption">
+            <input type="radio" name="scheduleOption" id="scheduleOption" required>
             <label>Day</label><br/>
             <label>Mon - Fri, 9:00 am - 4:00 pm</label><br/>
             <br/>
             <!-- Evening Class -->
-            <input type="radio" name="scheduleOption" id="scheduleOption">
+            <input type="radio" name="scheduleOption" id="scheduleOption" required>
             <label>Evening</label><br/>
             <label>Mon - Thurs, 5:30 pm - 8:30 pm or</label><br/>
             <label>Tues / Thurs, 9:00 am - 4:00 pm or</label><br/>

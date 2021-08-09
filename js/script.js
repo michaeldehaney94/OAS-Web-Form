@@ -1,13 +1,14 @@
-const saveBtn = document.getElementById('saveBtn');
+const saveBtn = document.getElementById('saveBtn') ;
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
 
-const selectCourse = document.getElementById('form-select');
+const selectCourse = document.getElementById('courseSelection');
 const radioBtn = document.getElementById('scheduleOption');
 const textarea = document.getElementById('textarea');
 const form = document.querySelector('form');
 
 saveBtn.addEventListener('submit', (e) => {
+    e.preventDefault;
     checkInput();
     alert('Saved!');
 })
